@@ -2,6 +2,7 @@ package org.jetbrains.scala
 
 import botkop.numsca.{Tensor, maximum, zeros}
 
+
 class ReLU(layer:  Layer_Dense){
 
   private var forward: Tensor = zeros(1, layer.getForward.shape.head)
